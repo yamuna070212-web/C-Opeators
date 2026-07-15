@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    printf("Difference = %d", a - b);
+
+    return 0;
+}
+Sample Output
+Enter two numbers: 20 10
+Difference = 10
