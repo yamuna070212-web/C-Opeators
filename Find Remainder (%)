@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    printf("Remainder = %d", a % b);
+
+    return 0;
+}
+Sample Output
+Enter two numbers: 25 4
+Remainder = 1
