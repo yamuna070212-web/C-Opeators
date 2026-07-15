@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int a = 10;
+
+    printf("Before = %d\n", a);
+
+    a++;
+
+    printf("After = %d", a);
+
+    return 0;
+}
+Output
+Before = 10
+After = 11
