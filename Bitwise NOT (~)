@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int a = 5;
+
+    printf("Bitwise NOT = %d", ~a);
+
+    return 0;
+}
+Output
+Bitwise NOT = -6
